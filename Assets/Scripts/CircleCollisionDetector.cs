@@ -39,6 +39,11 @@ public class CircleCollisionDetector : MonoBehaviour
                 isColliding = true;
                 break;
             }
+            else i
+                {
+                isColliding = false;
+            }
+
         }
     }
 
@@ -55,3 +60,5 @@ public class CircleCollisionDetector : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position + (Vector3)offset, radius);
     }
 }
+
+//persoanje tiene que ser hijo de la platorma, pero despued de que se vaje dejara de ser el el hijo - esto lo haremos con un tag 
